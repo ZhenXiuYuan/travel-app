@@ -1,0 +1,678 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		245C82BE98030CDE39C1D530 /* Pods_travel_republic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF0403C1CF3A9B3BE3A7FA2C /* Pods_travel_republic.framework */; };
+		DA21D747E766E798487ABF70 /* Pods_TravelRepublic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7352131DE757C1AE6A74AC9 /* Pods_TravelRepublic.framework */; };
+		F412441AF46F8A536C399A6E /* Pods_TravelRepublicTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D64ED172EEEC368A789B6FAE /* Pods_TravelRepublicTests.framework */; };
+		FB0A941F1DE774D100000EAC /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = FB0A941E1DE774D100000EAC /* Podfile */; };
+		FB1E2C431DEB23A60093C177 /* HolidayDataErrorHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1E2C421DEB23A60093C177 /* HolidayDataErrorHandling.swift */; };
+		FB5281BD1DE4B8FE0092EEB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5281BC1DE4B8FE0092EEB0 /* AppDelegate.swift */; };
+		FB5281BF1DE4B8FE0092EEB0 /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5281BE1DE4B8FE0092EEB0 /* MainPageViewController.swift */; };
+		FB5281C11DE4B8FE0092EEB0 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5281C01DE4B8FE0092EEB0 /* SettingsViewController.swift */; };
+		FB5281C41DE4B8FE0092EEB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB5281C21DE4B8FE0092EEB0 /* Main.storyboard */; };
+		FB5281C61DE4B8FE0092EEB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB5281C51DE4B8FE0092EEB0 /* Assets.xcassets */; };
+		FB5281C91DE4B8FE0092EEB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB5281C71DE4B8FE0092EEB0 /* LaunchScreen.storyboard */; };
+		FB8DAD3B1DE8A5770056A57E /* HolidayInfoFromAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8DAD3A1DE8A5770056A57E /* HolidayInfoFromAPI.swift */; };
+		FB8DAD3C1DE8A5770056A57E /* HolidayInfoFromAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8DAD3A1DE8A5770056A57E /* HolidayInfoFromAPI.swift */; };
+		FB8DAD3E1DE8A71E0056A57E /* HolidayData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8DAD3D1DE8A71E0056A57E /* HolidayData.swift */; };
+		FB8DAD3F1DE8A71E0056A57E /* HolidayData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8DAD3D1DE8A71E0056A57E /* HolidayData.swift */; };
+		FB8DAD461DE8B9640056A57E /* HolidayInfoFromAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8DAD451DE8B9640056A57E /* HolidayInfoFromAPITests.swift */; };
+		FB8DAD4A1DE8BDB70056A57E /* HolidayImageFromURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8DAD491DE8BDB70056A57E /* HolidayImageFromURL.swift */; };
+		FB8DAD4B1DE8BDB70056A57E /* HolidayImageFromURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8DAD491DE8BDB70056A57E /* HolidayImageFromURL.swift */; };
+		FB8DAD4D1DE8C02E0056A57E /* HolidayImageFromURLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8DAD4C1DE8C02E0056A57E /* HolidayImageFromURLTests.swift */; };
+		FB8DAD4F1DE8C9530056A57E /* HolidayDataRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8DAD4E1DE8C9530056A57E /* HolidayDataRequestManager.swift */; };
+		FB8DAD501DE8C9530056A57E /* HolidayDataRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8DAD4E1DE8C9530056A57E /* HolidayDataRequestManager.swift */; };
+		FB8DAD521DE8CE560056A57E /* HolidayDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8DAD511DE8CE560056A57E /* HolidayDataTests.swift */; };
+		FBD5AA881DEA2D4900AF9739 /* HolidayDataItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD5AA871DEA2D4900AF9739 /* HolidayDataItem.swift */; };
+		FBD5AA891DEA2DEB00AF9739 /* HolidayDataItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD5AA871DEA2D4900AF9739 /* HolidayDataItem.swift */; };
+		FBDB67EE1DEB32DC0007E954 /* MainPageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDB67ED1DEB32DC0007E954 /* MainPageCollectionViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB5281D01DE4B8FE0092EEB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB5281B11DE4B8FE0092EEB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB5281B81DE4B8FE0092EEB0;
+			remoteInfo = "travel-republic";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F6D396274600696313D81EA /* Pods-TravelRepublic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelRepublic.release.xcconfig"; path = "Pods/Target Support Files/Pods-TravelRepublic/Pods-TravelRepublic.release.xcconfig"; sourceTree = "<group>"; };
+		39DF7928B080660BCCF24928 /* Pods-TravelRepublicTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelRepublicTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TravelRepublicTests/Pods-TravelRepublicTests.release.xcconfig"; sourceTree = "<group>"; };
+		4046EF9ABF9BF706F0DD5FB6 /* Pods-TravelRepublicTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelRepublicTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TravelRepublicTests/Pods-TravelRepublicTests.debug.xcconfig"; sourceTree = "<group>"; };
+		768CD9574032D07B47479C50 /* Pods-travel-republic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-travel-republic.debug.xcconfig"; path = "Pods/Target Support Files/Pods-travel-republic/Pods-travel-republic.debug.xcconfig"; sourceTree = "<group>"; };
+		C389EB41272C1F4813D8A537 /* Pods-travel-republic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-travel-republic.release.xcconfig"; path = "Pods/Target Support Files/Pods-travel-republic/Pods-travel-republic.release.xcconfig"; sourceTree = "<group>"; };
+		D64ED172EEEC368A789B6FAE /* Pods_TravelRepublicTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TravelRepublicTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF0403C1CF3A9B3BE3A7FA2C /* Pods_travel_republic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_travel_republic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7352131DE757C1AE6A74AC9 /* Pods_TravelRepublic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TravelRepublic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC6529ABD2D5481EBF6716FE /* Pods-TravelRepublic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelRepublic.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TravelRepublic/Pods-TravelRepublic.debug.xcconfig"; sourceTree = "<group>"; };
+		FB0A941E1DE774D100000EAC /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FB1E2C421DEB23A60093C177 /* HolidayDataErrorHandling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HolidayDataErrorHandling.swift; sourceTree = "<group>"; };
+		FB5281B91DE4B8FE0092EEB0 /* TravelRepublic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelRepublic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB5281BC1DE4B8FE0092EEB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB5281BE1DE4B8FE0092EEB0 /* MainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
+		FB5281C01DE4B8FE0092EEB0 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		FB5281C31DE4B8FE0092EEB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB5281C51DE4B8FE0092EEB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB5281C81DE4B8FE0092EEB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB5281CA1DE4B8FE0092EEB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB5281CF1DE4B8FE0092EEB0 /* TravelRepublicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravelRepublicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB5281D51DE4B8FE0092EEB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB8DAD391DE8A5770056A57E /* TravelRepublicTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TravelRepublicTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		FB8DAD3A1DE8A5770056A57E /* HolidayInfoFromAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HolidayInfoFromAPI.swift; sourceTree = "<group>"; };
+		FB8DAD3D1DE8A71E0056A57E /* HolidayData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HolidayData.swift; sourceTree = "<group>"; };
+		FB8DAD451DE8B9640056A57E /* HolidayInfoFromAPITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HolidayInfoFromAPITests.swift; sourceTree = "<group>"; };
+		FB8DAD471DE8BAF50056A57E /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../Library/Developer/Xcode/DerivedData/travel-republic-dpkxdgrxrwagkieremegyjxgasbi/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
+		FB8DAD491DE8BDB70056A57E /* HolidayImageFromURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HolidayImageFromURL.swift; sourceTree = "<group>"; };
+		FB8DAD4C1DE8C02E0056A57E /* HolidayImageFromURLTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HolidayImageFromURLTests.swift; sourceTree = "<group>"; };
+		FB8DAD4E1DE8C9530056A57E /* HolidayDataRequestManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HolidayDataRequestManager.swift; sourceTree = "<group>"; };
+		FB8DAD511DE8CE560056A57E /* HolidayDataTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HolidayDataTests.swift; sourceTree = "<group>"; };
+		FBD5AA871DEA2D4900AF9739 /* HolidayDataItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HolidayDataItem.swift; sourceTree = "<group>"; };
+		FBDB67ED1DEB32DC0007E954 /* MainPageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPageCollectionViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB5281B61DE4B8FE0092EEB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				245C82BE98030CDE39C1D530 /* Pods_travel_republic.framework in Frameworks */,
+				DA21D747E766E798487ABF70 /* Pods_TravelRepublic.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB5281CC1DE4B8FE0092EEB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F412441AF46F8A536C399A6E /* Pods_TravelRepublicTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6BF55912DB03B0DF766AC686 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB8DAD471DE8BAF50056A57E /* Alamofire.framework */,
+				DF0403C1CF3A9B3BE3A7FA2C /* Pods_travel_republic.framework */,
+				E7352131DE757C1AE6A74AC9 /* Pods_TravelRepublic.framework */,
+				D64ED172EEEC368A789B6FAE /* Pods_TravelRepublicTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F86ADDEDA4DB11CCFE460974 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				768CD9574032D07B47479C50 /* Pods-travel-republic.debug.xcconfig */,
+				C389EB41272C1F4813D8A537 /* Pods-travel-republic.release.xcconfig */,
+				EC6529ABD2D5481EBF6716FE /* Pods-TravelRepublic.debug.xcconfig */,
+				2F6D396274600696313D81EA /* Pods-TravelRepublic.release.xcconfig */,
+				4046EF9ABF9BF706F0DD5FB6 /* Pods-TravelRepublicTests.debug.xcconfig */,
+				39DF7928B080660BCCF24928 /* Pods-TravelRepublicTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FB5281B01DE4B8FE0092EEB0 = {
+			isa = PBXGroup;
+			children = (
+				FB0A941E1DE774D100000EAC /* Podfile */,
+				FB5281BB1DE4B8FE0092EEB0 /* TravelRepublic */,
+				FB5281D21DE4B8FE0092EEB0 /* TravelRepublicTests */,
+				FB5281BA1DE4B8FE0092EEB0 /* Products */,
+				F86ADDEDA4DB11CCFE460974 /* Pods */,
+				6BF55912DB03B0DF766AC686 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FB5281BA1DE4B8FE0092EEB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB5281B91DE4B8FE0092EEB0 /* TravelRepublic.app */,
+				FB5281CF1DE4B8FE0092EEB0 /* TravelRepublicTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB5281BB1DE4B8FE0092EEB0 /* TravelRepublic */ = {
+			isa = PBXGroup;
+			children = (
+				FB8DAD391DE8A5770056A57E /* TravelRepublicTests-Bridging-Header.h */,
+				FB5281BC1DE4B8FE0092EEB0 /* AppDelegate.swift */,
+				FB5281ED1DE4B9930092EEB0 /* Models */,
+				FB5281EE1DE4B9A00092EEB0 /* Views */,
+				FB5281EC1DE4B97B0092EEB0 /* Controllers */,
+				FB5281C51DE4B8FE0092EEB0 /* Assets.xcassets */,
+				FB5281CA1DE4B8FE0092EEB0 /* Info.plist */,
+			);
+			name = TravelRepublic;
+			path = "travel-republic";
+			sourceTree = "<group>";
+		};
+		FB5281D21DE4B8FE0092EEB0 /* TravelRepublicTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB5281D51DE4B8FE0092EEB0 /* Info.plist */,
+				FB8DAD451DE8B9640056A57E /* HolidayInfoFromAPITests.swift */,
+				FB8DAD4C1DE8C02E0056A57E /* HolidayImageFromURLTests.swift */,
+				FB8DAD511DE8CE560056A57E /* HolidayDataTests.swift */,
+			);
+			name = TravelRepublicTests;
+			path = "travel-republicTests";
+			sourceTree = "<group>";
+		};
+		FB5281EC1DE4B97B0092EEB0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FB5281C01DE4B8FE0092EEB0 /* SettingsViewController.swift */,
+				FBDB67EC1DEB32250007E954 /* MainPageVC */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FB5281ED1DE4B9930092EEB0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FB9FA9DB1DE9EDDB0038CA9B /* HolidayData */,
+			);
+			name = Models;
+			path = "travel-republic/Models";
+			sourceTree = SOURCE_ROOT;
+		};
+		FB5281EE1DE4B9A00092EEB0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FB5281C21DE4B8FE0092EEB0 /* Main.storyboard */,
+				FB5281C71DE4B8FE0092EEB0 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FB9FA9DB1DE9EDDB0038CA9B /* HolidayData */ = {
+			isa = PBXGroup;
+			children = (
+				FBD5AA871DEA2D4900AF9739 /* HolidayDataItem.swift */,
+				FB8DAD4E1DE8C9530056A57E /* HolidayDataRequestManager.swift */,
+				FB8DAD3D1DE8A71E0056A57E /* HolidayData.swift */,
+				FB8DAD3A1DE8A5770056A57E /* HolidayInfoFromAPI.swift */,
+				FB8DAD491DE8BDB70056A57E /* HolidayImageFromURL.swift */,
+				FB1E2C421DEB23A60093C177 /* HolidayDataErrorHandling.swift */,
+			);
+			name = HolidayData;
+			path = "travel-republic/Models/HolidayData";
+			sourceTree = SOURCE_ROOT;
+		};
+		FBDB67EC1DEB32250007E954 /* MainPageVC */ = {
+			isa = PBXGroup;
+			children = (
+				FB5281BE1DE4B8FE0092EEB0 /* MainPageViewController.swift */,
+				FBDB67ED1DEB32DC0007E954 /* MainPageCollectionViewCell.swift */,
+			);
+			path = MainPageVC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB5281B81DE4B8FE0092EEB0 /* TravelRepublic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB5281E31DE4B8FE0092EEB0 /* Build configuration list for PBXNativeTarget "TravelRepublic" */;
+			buildPhases = (
+				ECC1F5B3144DB271BE51548F /* [CP] Check Pods Manifest.lock */,
+				FB5281B51DE4B8FE0092EEB0 /* Sources */,
+				FB5281B61DE4B8FE0092EEB0 /* Frameworks */,
+				FB5281B71DE4B8FE0092EEB0 /* Resources */,
+				AD72C75EB6E1FCE9D872049A /* [CP] Embed Pods Frameworks */,
+				0BD22F0EEE932D04AA9DB50E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TravelRepublic;
+			productName = "travel-republic";
+			productReference = FB5281B91DE4B8FE0092EEB0 /* TravelRepublic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB5281CE1DE4B8FE0092EEB0 /* TravelRepublicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB5281E61DE4B8FE0092EEB0 /* Build configuration list for PBXNativeTarget "TravelRepublicTests" */;
+			buildPhases = (
+				A718863B184AE09428C59E69 /* [CP] Check Pods Manifest.lock */,
+				FB5281CB1DE4B8FE0092EEB0 /* Sources */,
+				FB5281CC1DE4B8FE0092EEB0 /* Frameworks */,
+				FB5281CD1DE4B8FE0092EEB0 /* Resources */,
+				DDA8D0ECA4068782CBB197B6 /* [CP] Embed Pods Frameworks */,
+				75E45FF45F7A6E34A5EC4764 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB5281D11DE4B8FE0092EEB0 /* PBXTargetDependency */,
+			);
+			name = TravelRepublicTests;
+			productName = "travel-republicTests";
+			productReference = FB5281CF1DE4B8FE0092EEB0 /* TravelRepublicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB5281B11DE4B8FE0092EEB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Jonny Pickard";
+				TargetAttributes = {
+					FB5281B81DE4B8FE0092EEB0 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					FB5281CE1DE4B8FE0092EEB0 = {
+						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FB5281B81DE4B8FE0092EEB0;
+					};
+				};
+			};
+			buildConfigurationList = FB5281B41DE4B8FE0092EEB0 /* Build configuration list for PBXProject "TravelRepublic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB5281B01DE4B8FE0092EEB0;
+			productRefGroup = FB5281BA1DE4B8FE0092EEB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB5281B81DE4B8FE0092EEB0 /* TravelRepublic */,
+				FB5281CE1DE4B8FE0092EEB0 /* TravelRepublicTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB5281B71DE4B8FE0092EEB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB5281C91DE4B8FE0092EEB0 /* LaunchScreen.storyboard in Resources */,
+				FB5281C61DE4B8FE0092EEB0 /* Assets.xcassets in Resources */,
+				FB0A941F1DE774D100000EAC /* Podfile in Resources */,
+				FB5281C41DE4B8FE0092EEB0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB5281CD1DE4B8FE0092EEB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BD22F0EEE932D04AA9DB50E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TravelRepublic/Pods-TravelRepublic-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75E45FF45F7A6E34A5EC4764 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TravelRepublicTests/Pods-TravelRepublicTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A718863B184AE09428C59E69 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AD72C75EB6E1FCE9D872049A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TravelRepublic/Pods-TravelRepublic-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDA8D0ECA4068782CBB197B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TravelRepublicTests/Pods-TravelRepublicTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECC1F5B3144DB271BE51548F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB5281B51DE4B8FE0092EEB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB5281C11DE4B8FE0092EEB0 /* SettingsViewController.swift in Sources */,
+				FB5281BD1DE4B8FE0092EEB0 /* AppDelegate.swift in Sources */,
+				FB8DAD4A1DE8BDB70056A57E /* HolidayImageFromURL.swift in Sources */,
+				FBD5AA881DEA2D4900AF9739 /* HolidayDataItem.swift in Sources */,
+				FBDB67EE1DEB32DC0007E954 /* MainPageCollectionViewCell.swift in Sources */,
+				FB8DAD4F1DE8C9530056A57E /* HolidayDataRequestManager.swift in Sources */,
+				FB8DAD3B1DE8A5770056A57E /* HolidayInfoFromAPI.swift in Sources */,
+				FB8DAD3E1DE8A71E0056A57E /* HolidayData.swift in Sources */,
+				FB1E2C431DEB23A60093C177 /* HolidayDataErrorHandling.swift in Sources */,
+				FB5281BF1DE4B8FE0092EEB0 /* MainPageViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB5281CB1DE4B8FE0092EEB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8DAD501DE8C9530056A57E /* HolidayDataRequestManager.swift in Sources */,
+				FB8DAD3F1DE8A71E0056A57E /* HolidayData.swift in Sources */,
+				FB8DAD461DE8B9640056A57E /* HolidayInfoFromAPITests.swift in Sources */,
+				FBD5AA891DEA2DEB00AF9739 /* HolidayDataItem.swift in Sources */,
+				FB8DAD521DE8CE560056A57E /* HolidayDataTests.swift in Sources */,
+				FB8DAD4D1DE8C02E0056A57E /* HolidayImageFromURLTests.swift in Sources */,
+				FB8DAD4B1DE8BDB70056A57E /* HolidayImageFromURL.swift in Sources */,
+				FB8DAD3C1DE8A5770056A57E /* HolidayInfoFromAPI.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB5281D11DE4B8FE0092EEB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB5281B81DE4B8FE0092EEB0 /* TravelRepublic */;
+			targetProxy = FB5281D01DE4B8FE0092EEB0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB5281C21DE4B8FE0092EEB0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB5281C31DE4B8FE0092EEB0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB5281C71DE4B8FE0092EEB0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB5281C81DE4B8FE0092EEB0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB5281E11DE4B8FE0092EEB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB5281E21DE4B8FE0092EEB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB5281E41DE4B8FE0092EEB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC6529ABD2D5481EBF6716FE /* Pods-TravelRepublic.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "travel-republic/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jonnypickard.travel-republic";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FB5281E51DE4B8FE0092EEB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F6D396274600696313D81EA /* Pods-TravelRepublic.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "travel-republic/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jonnypickard.travel-republic";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FB5281E71DE4B8FE0092EEB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4046EF9ABF9BF706F0DD5FB6 /* Pods-TravelRepublicTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "travel-republicTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jonnypickard.travel-republicTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "travel-republic/TravelRepublicTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TravelRepublic.app/TravelRepublic";
+			};
+			name = Debug;
+		};
+		FB5281E81DE4B8FE0092EEB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39DF7928B080660BCCF24928 /* Pods-TravelRepublicTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "travel-republicTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jonnypickard.travel-republicTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "travel-republic/TravelRepublicTests-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TravelRepublic.app/TravelRepublic";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB5281B41DE4B8FE0092EEB0 /* Build configuration list for PBXProject "TravelRepublic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB5281E11DE4B8FE0092EEB0 /* Debug */,
+				FB5281E21DE4B8FE0092EEB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB5281E31DE4B8FE0092EEB0 /* Build configuration list for PBXNativeTarget "TravelRepublic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB5281E41DE4B8FE0092EEB0 /* Debug */,
+				FB5281E51DE4B8FE0092EEB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB5281E61DE4B8FE0092EEB0 /* Build configuration list for PBXNativeTarget "TravelRepublicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB5281E71DE4B8FE0092EEB0 /* Debug */,
+				FB5281E81DE4B8FE0092EEB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB5281B11DE4B8FE0092EEB0 /* Project object */;
+}
